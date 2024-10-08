@@ -15,3 +15,4 @@ $result = mysqli_query($link, "select p.id,p.dt,p.userid,u.name,p.pid,subcat,bra
 mysqli_free_result($result);
 include './adminfooter.php';
 ?>
+
